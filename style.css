@@ -1,0 +1,134 @@
+body {
+    color: #282425;
+    background-color: snow;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #756158;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic 
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    text-shadow: 0 3px 10px snow;
+
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 36px;
+}
+
+a { 
+    font-style: italic;
+}
+
+.fotogalerie,
+.kontakt {
+    background-color: #f3e4d8;
+}
+
+.paticka {
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.foto-omne {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.fotogalerie img {
+    width: 30%;
+    border: 2px solid #756158;
+}
+
+.foto-kontakt {
+    width: 300px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+table {
+    border-spacing: 0;
+}
+
+
+th,
+td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.cena {
+    text-align: right;
+    padding-left: 50px;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.kontakt h3 {
+    clear:both
+}
+
+.hlavicka {
+    padding: 150px 30px;
+    background-image: url(Obrázky/bambus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #282425;
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover {
+    background-color: #756158;
+}
